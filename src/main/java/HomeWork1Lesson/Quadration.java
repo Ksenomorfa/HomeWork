@@ -1,7 +1,7 @@
 package HomeWork1Lesson;
 
 /**
- *          Not Default
+ * Not Default
  */
 public class Quadration {
 
