@@ -43,6 +43,7 @@ public class BracketSequence {
     }
 
     static boolean check(int N, int openCr, int closeCr) {
+        //проверка кол-ва скобок для строки
         return ((openCr + closeCr == 2 * N)) ? true : false;
     }
 }
