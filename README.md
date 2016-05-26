@@ -71,6 +71,3 @@ N = 4
 Выбран Баг-трекер, будет выкладываться тут: https://github.com/Ksenomorfa/BugTracker 
 
 Составить список классов, полей и методов.
-
-## Добавить себя в список
-https://github.com/levelp/ToDoList
