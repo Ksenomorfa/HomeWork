@@ -26,8 +26,7 @@ public class Quadration {
                 if (s.hasNextDouble()) {
                     double c = s.nextDouble();
 
-                    Quadration calcX = new Quadration();
-                    String s2 = calcX.calc(a, b, c);
+                    String s2 = Quadration.calc(a, b, c);
                     System.out.println("Результат: " + s2);
                 }
                 else System.out.println("Некорректное c");

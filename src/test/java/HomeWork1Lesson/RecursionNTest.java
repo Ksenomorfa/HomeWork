@@ -9,7 +9,7 @@ import org.junit.Test;
 public class RecursionNTest extends Assert {
     @Test
     public void test() {
-        assertEquals(1*2,2);
+        assertEquals(1*2,RecursionN.calcRecursion(2));
 
 
 
