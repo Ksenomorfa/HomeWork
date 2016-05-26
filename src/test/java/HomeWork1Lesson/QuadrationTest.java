@@ -20,8 +20,8 @@ public class QuadrationTest extends Assert {
 
         assertEquals("x - любое число", Quadration.calc(0, 0, 0));
 
-        assertEquals("Уравнение не квадратное, x равен 1,0000", Quadration.calc(0, 2, -2));
-        assertEquals("Уравнение не квадратное, x равен 0,0000", Quadration.calc(0, 2, 0));
+        assertEquals("Уравнение линейное, x равен 1,0000", Quadration.calc(0, 2, -2));
+        assertEquals("Уравнение линейное, x равен 0,0000", Quadration.calc(0, 2, 0));
 
         assertEquals("Корней нет", Quadration.calc(0, 0, 5));
 

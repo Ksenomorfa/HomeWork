@@ -12,9 +12,9 @@ public class Quadration {
 
     public static void main(String[] args) {
 
-
        Scanner s = new Scanner(System.in);
         System.out.println("Введите a:");
+        //проверяем корректность a,b,c - если плохие, выбрасываем из программы, без исключений
         if (s.hasNextDouble()) {
             double a = s.nextDouble();
 
@@ -25,7 +25,7 @@ public class Quadration {
                 System.out.println("Введите c:");
                 if (s.hasNextDouble()) {
                     double c = s.nextDouble();
-
+                    //все a,b,c - корретные, вычисляем:
                     String s2 = Quadration.calc(a, b, c);
                     System.out.println("Результат: " + s2);
                 }
@@ -41,19 +41,18 @@ public class Quadration {
 
         double D;
         if ((a == 0) && (b == 0) && (c == 0)) {
-            System.out.println("Все a,b,c равны 0");
+            System.out.println("Все введенные числа равны 0");
             return "x - любое число";
         }
+        if ((a==0)&&(b==0)&&(c!=0)) {
+            return "Корней нет";
+        }
+        //вычисляем квадрат дискриминанта:
         D = b * b - 4 * a * c;
         System.out.println ("Квадрат дискриминанта = b * b - 4 * a * c  и равен " + D);
+        //если он равен 0, то для случая, если с=0 вычисляется проще
         if (D == 0) {
-            if (c==0) {
                 return "x равен " + String.format("%.4f", (-b / (2 * a)));
-            }
-            else {
-                System.out.println("a и b равны 0");
-                return "Корней нет";
-            }
         }
         if (D > 0) {
             double x1;
@@ -61,7 +60,7 @@ public class Quadration {
             if (a == 0) {
                 x1 = (-c / b);
                 System.out.println("x1 = (-c / b)");
-                return "Уравнение не квадратное, x равен " + String.format("%.4f", Math.abs(x1));
+                return "Уравнение линейное, x равен " + String.format("%.4f", Math.abs(x1));
             }
             x1 = ((-b + Math.sqrt(D)) / (2 * a));
             System.out.println("x1 = ((-b + корень(D)) / (2 * a))");
