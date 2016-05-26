@@ -45,8 +45,10 @@ public class Quadration {
         }
         D = b * b - 4 * a * c;
         if (D == 0) {
-
-            return "x равен " + String.format("%.4f", (-b / (2 * a)));
+            if (c==0) {
+                return "x равен " + String.format("%.4f", (-b / (2 * a)));
+            }
+            else return "Корней нет";
         }
         if (D > 0) {
             double x1;
