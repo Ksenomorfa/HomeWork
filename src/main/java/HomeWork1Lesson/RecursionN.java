@@ -7,24 +7,26 @@ import java.util.Scanner;
  */
 public class RecursionN {
     static int N;
-    static int [] list = new int [100];
+    static int[] list = new int[100];
+
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Введите N: ");
         if ((N = s.nextInt()) <= 100) {
             RecursionN.calcRecursion(N, N, 0);
-        }
-        else System.out.println("N больше 100, слишком долго вычислять.");
+        } else System.out.println("N больше 100, слишком долго вычислять.");
     }
 
     public static void calcRecursion(int summa, int prev, int id) {
 
-        /* Честно, алгоритм пришлось искать... */
+        // Честно, алгоритм пришлось искать...
+        // перебираем и рекурсивно добавляем в массив, начиная с наибольшего числа
         for (int x = Math.min(summa, prev); x >= 1; x--) {
             list[id] = x;
             calcRecursion(summa - x, x, id + 1);
+
         }
-        //если сумма закончилась, начинаем выыводить строку
+        //если сумма равна 0, начинаем выыводить строку
         if (summa == 0) {
             //выводим само N
             System.out.print("N = " + list[0]);
