@@ -12,9 +12,10 @@ public class RecursionN {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Введите N: ");
-        if ((N = s.nextInt()) <= 100) {
+        if (((N = s.nextInt()) <= 100)&&(N>0)) {
             RecursionN.calcRecursion(N, N, 0);
-        } else System.out.println("N больше 100, слишком долго вычислять.");
+        } else if (N<0) System.out.println("N меньше 0, вычислять нечего.");
+        else System.out.println("N больше 100  слишком долго вычислять.");
     }
 
     public static void calcRecursion(int summa, int prev, int id) {
