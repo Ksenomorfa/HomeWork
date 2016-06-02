@@ -1,6 +1,7 @@
 #Третье задание (дано 31.05.2016)
-* Реализовать стэк в java_03 (есть заготовка под тест)
-* Применить какой-нибудь вид списка в проекте, например ArrayList, применить Date какой-нибудь, 
+* Реализовать стэк в java_03 (сделан тут: https://github.com/Ksenomorfa/HomeWork/blob/master/src/main/java/HomeWork020616/MyStack.java и тест тут: https://github.com/Ksenomorfa/HomeWork/blob/master/src/test/java/HomeWork020616/StackTest.java )
+* Применить какой-нибудь вид списка в проекте, например ArrayList, применить Date какой-нибудь, здесь: https://github.com/levelp/BugTracker/commits/master последние 5 коммитов
+
 * Почитать: про Collection - набор однотипных элементов, по конкретным видам List, Set, Map, по функциональным методам в java8, по стиранию типов для параметр. типов, по хэш-таблицам подробнее (по распределению элементов по разным местам) и вычислению hashCode (полиномиальный хэш)
 
 #Второе задание (дано 27.05.2016)
