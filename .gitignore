@@ -9,6 +9,6 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-
-.gitignore
 .idea/workspace.xml
+.idea/
+
