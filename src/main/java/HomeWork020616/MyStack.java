@@ -15,22 +15,27 @@ public class MyStack {
     }
 
     public void push(Object obj) {
-         arrayList.add(obj);
+        arrayList.add(obj);
         System.out.println("Добавили: " + obj);
     }
 
     public Object pop() {
-        Object obj = arrayList.get(arrayList.size()-1);
-        obj = arrayList.remove(arrayList.size()-1);
-        System.out.println("Забрали: " + obj);
-        return obj;
+        if (arrayList.size() != 0) {
+            Object obj = arrayList.get(arrayList.size() - 1);
+            obj = arrayList.remove(arrayList.size() - 1);
+            System.out.println("Забрали: " + obj);
+            return obj;
+        } else {
+            System.out.println("Стек пуст");
+            return null;
+        }
     }
+
     public void printStack() {
-        if (arrayList.size()!=0) {
+        if (arrayList.size() != 0) {
             for (int i = 0; i < arrayList.size(); i++) {
                 System.out.println("Индекс:" + i + " Элемент: " + arrayList.get(i));
             }
-        }
-        else System.out.println("Стек пуст");
+        } else System.out.println("Стек пуст");
     }
 }

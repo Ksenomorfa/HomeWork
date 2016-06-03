@@ -48,10 +48,12 @@ public class StackTest extends Assert {
         System.out.println("============");
         assertEquals("строчка", stack.pop());
         assertEquals(1, stack.pop());
-
-        System.out.println("Содержимое стека:");
-        stack.printStack();
         System.out.println("============");
+        //проверка пустого стека:
+        System.out.println("Содержимое стека:");
+        assertEquals(null, stack.pop());
+
+
 
     }
 }
