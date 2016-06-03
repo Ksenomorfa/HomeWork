@@ -1,3 +1,9 @@
+#Четвертое задание (дано 03.06.2016)
+* Задеплоить в tomcat свой проект Bugtracker.
+* Сделать начальную страницу для своего приложения - макет, блоки, подумать какие страницы еще сделать.
+* Добавить использование AJAX\запросов в свой проект, реализовать какой-нибудь веб-интерфейс, попробовать реализовать сервлет для каких-нибудь подсайтов. Можно попробовать сделать добавление задач и вывод списка задач?
+* Прочитать: AJAX, виды запросов (REST+GET+POST), Exception (разобраться с Runtime\Error), сервлеты (HttpRequest, HttpResponse и т.п., почитать про кодировки), утверждения assert. Посмотреть примеры из example tomcat.
+
 #Третье задание (дано 31.05.2016)
 * Реализовать стэк в java_03 (сделан тут: https://github.com/Ksenomorfa/HomeWork/blob/master/src/main/java/HomeWork020616/MyStack.java и тест тут: https://github.com/Ksenomorfa/HomeWork/blob/master/src/test/java/HomeWork020616/StackTest.java )
 * Применить какой-нибудь вид списка в проекте, например ArrayList, применить Date какой-нибудь, здесь: https://github.com/levelp/BugTracker/commits/master последние 5 коммитов
