@@ -24,17 +24,18 @@ public class SimpleNumbers {
     }
 
     boolean isNumberSimple(int num) {
-        if ((num == 2) || (num == 3) || (num == 5) || (num == 7))
-            return true;
-        if (num >= 10) {
-            for (int i = 10; i <= num; i++) {
-                if (num % 2 != 0 && num % 3 != 0 && num % 5 != 0 && num % 7 != 0) {
-                    return true;
-                }
+        boolean isSimple = true;
+        if (num ==1 ) {return isSimple = false;}
+
+        for (int i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i == 0) {
+                isSimple = false;
             }
+
         }
-        return false;
-    }
+
+    return isSimple;
+}
 
     public SimpleNumbers() {
         fromModel = new SpinnerNumberModel(0, 0, Integer.MAX_VALUE, 1);
@@ -48,7 +49,6 @@ public class SimpleNumbers {
         calculateButton.addActionListener(action);
 
     }
-
 
 
     void addSimpleNumber(int num) {
