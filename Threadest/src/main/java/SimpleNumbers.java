@@ -25,17 +25,18 @@ public class SimpleNumbers {
 
     boolean isNumberSimple(int num) {
         boolean isSimple = true;
-        if (num ==1 ) {return isSimple = false;}
+        if ((num == 1) || (num < 0)) {
+            return isSimple = false;
+        }
 
         for (int i = 2; i <= Math.sqrt(num); i++) {
             if (num % i == 0) {
                 isSimple = false;
             }
-
         }
 
-    return isSimple;
-}
+        return isSimple;
+    }
 
     public SimpleNumbers() {
         fromModel = new SpinnerNumberModel(0, 0, Integer.MAX_VALUE, 1);
