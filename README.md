@@ -1,3 +1,9 @@
+#Седьмое задание (13.06.2016)
+* Почитать по аннотациям Spring: Transactional, Query, Autowired, PersistenceContext. Spring-Security 
+* Comparator\Consumer и super, Producer и extends (правило PECS)
+* Spring Social+Spring Security для интеграции с соцсетями.
+* Потестить Repositories, Sequrity и локализацию на своем проекте. Добавить хэштеги, например, в БД в создание, в поиск, по одному.
+
 #Шестое задание (дано 10.06.2016)
 * Почитать по многопоточному программированию (thread, runnable, run\start, volatile, synchronized, AtomicInteger). Протестировать синхронизацию полей и методов (static и не static).
 * Форма (java_06 prime_numbers, нужно вывести числа, заданные от и до, и чтобы делалось в отдельном потоке - интерфейс не зависал). Спец вызов SwingUtilities.invokeLater (для синхронизации со свингом) - использовать.
