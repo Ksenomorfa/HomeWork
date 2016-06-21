@@ -1,7 +1,15 @@
+#Девятое задание (21.06.2016)
+* Переделать ResourceHandler в javaconfig, в DAO добавить Autowired и переделать его структуру.
+* Почитать про самостоятельное объявление аннотаций, AnnotationProcessors.
+* Посмотреть по jsP: getAttribute. getSession, c:set, c:foreach, c:f, c:url
+* Прочитать про Principal в Spring-Security. 
+* Добавить паттерны Prototype (интерфейс Cloneable есть еще), Object Pool\Registry, Visitor и Builder (включая flow с многими параметрами), в синглтон добавить двойной чек и способ с статической инициализацией.
+* 
+
 #Восьмое задание (17.06.2016)
 * Почитать по аннотациям Spring: Transactional, Query, Autowired, PersistenceContext, Service. Spring-Security. 
 * Почитать про JSON, SAXParser, DomParser.
-* Переделать в jsp получение данных из контроллера - список задач, кнопка Создать задачу. Посмотреть по jsP: getAttribute. getSessionю
+* Переделать в jsp получение данных из контроллера - список задач, кнопка Создать задачу. 
 
 #Седьмое задание (13.06.2016)
 
