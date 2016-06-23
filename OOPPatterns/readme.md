@@ -11,7 +11,7 @@
 * Composite 
 * Decorator
 * Factory Method
-* Fasade
+* Facade
 * Iterator
 * Observer
 * Proxy
@@ -20,9 +20,9 @@
 * State
 * Strategy
 * Template Method
+* Visitor
 
 Еще планируются:
-* Visitor
 * Object Pool
 * Registry
 * Prototype

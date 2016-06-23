@@ -16,9 +16,11 @@ class Singleton {
     //метод создания объекта, проверяющего есть ли уже такой объект, так называемая условная блокировка
     public static Singleton getInstance() {
         if (uniqueInstance == null) {
-            //этот кусок кода синхронизируется только если экземпляра не существует.
+            //этот кусок кода синхронизируется только если экземпляра не существует + двойной чек
             synchronized (Singleton.class) {
-                uniqueInstance = new Singleton();
+                if (uniqueInstance == null) {
+                    uniqueInstance = new Singleton();
+                }
             }
         }
         return uniqueInstance;
