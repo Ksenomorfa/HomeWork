@@ -14,6 +14,7 @@
 * Facade
 * Iterator
 * Observer
+* Prototype
 * Proxy
 * Simple Factory
 * Singleton
@@ -25,7 +26,6 @@
 Еще планируются:
 * Object Pool
 * Registry
-* Prototype
 * Bridge
 * Chain of Responsibility
 * Flyweight
