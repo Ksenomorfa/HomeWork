@@ -6,6 +6,7 @@
 На текущий моменты выложены следующие паттерны:
 * Abstract Factory
 * Adapter
+* Bridge
 * Builder
 * Command
 * Composite 
@@ -13,6 +14,7 @@
 * Factory Method
 * Facade
 * Iterator
+* Object Pool
 * Observer
 * Prototype
 * Proxy
@@ -24,9 +26,7 @@
 * Visitor
 
 Еще планируются:
-* Object Pool
 * Registry
-* Bridge
 * Chain of Responsibility
 * Flyweight
 * Interpreter
