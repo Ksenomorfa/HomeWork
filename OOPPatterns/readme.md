@@ -8,6 +8,7 @@
 * Adapter
 * Bridge
 * Builder
+* Chain of Responsibility
 * Command
 * Composite 
 * Decorator
@@ -27,7 +28,6 @@
 
 Еще планируются:
 * Registry
-* Chain of Responsibility
 * Flyweight
 * Interpreter
 * Mediator

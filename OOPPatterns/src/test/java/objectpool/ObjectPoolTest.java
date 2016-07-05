@@ -8,8 +8,8 @@ public class ObjectPoolTest {
 
         // Create the ConnectionPool:
         JDBCConnectionPool pool = new JDBCConnectionPool(
-                "org.hsqldb.jdbcDriver", "jdbc:hsqldb://localhost/mydb",
-                "sa", "secret");
+                "org.postgresql.Driver", "jdbc:postgresql://localhost:5432/BugTrackerBase",
+                "postgres", "AhuleB2KS");
 
         // Get a connection:
         Connection con = pool.checkOut();
