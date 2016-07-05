@@ -18,6 +18,7 @@
 * Interpreter
 * Iterator
 * Mediator
+* Memento
 * Object Pool
 * Observer
 * Prototype
@@ -31,4 +32,14 @@
 
 Еще планируются:
 * Registry
-* Memento
+* MVC Pattern
+* Null Object
+* InterceptingFilter
+* ServiceLocator
+* FrontController
+* TransferObject
+* BusinessDelegate
+* CompositeEntity
+* Data Access Object
+* Criteria
+* Template
