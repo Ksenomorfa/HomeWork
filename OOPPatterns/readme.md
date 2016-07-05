@@ -14,6 +14,8 @@
 * Decorator
 * Factory Method
 * Facade
+* Flyweight
+* Interpreter
 * Iterator
 * Object Pool
 * Observer
@@ -28,7 +30,5 @@
 
 Еще планируются:
 * Registry
-* Flyweight
-* Interpreter
 * Mediator
 * Memento
