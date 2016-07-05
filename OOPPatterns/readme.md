@@ -17,6 +17,7 @@
 * Flyweight
 * Interpreter
 * Iterator
+* Mediator
 * Object Pool
 * Observer
 * Prototype
@@ -30,5 +31,4 @@
 
 Еще планируются:
 * Registry
-* Mediator
 * Memento
