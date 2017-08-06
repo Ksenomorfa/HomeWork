@@ -1,6 +1,4 @@
-package HomeWork1Lesson;
-
-import java.util.ArrayList;
+package lvlp.hmwk1;
 
 /**
  * Второй вариант разложения на слагаемые

@@ -1,10 +1,8 @@
-package HomeWork1Lesson;
+package lvlp.hmwk1;
 
 /**
  * Not Default
  */
-
-import com.sun.org.apache.xml.internal.serializer.utils.SystemIDResolver;
 
 import java.util.Scanner;
 

@@ -1,9 +1,7 @@
-package HomeWork020616;
+package lvlp.hmwk2;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.omg.CORBA.OBJ_ADAPTER;
-import org.omg.CORBA.Object;
 
 import java.util.Date;
 

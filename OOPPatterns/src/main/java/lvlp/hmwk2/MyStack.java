@@ -1,6 +1,4 @@
-package HomeWork020616;
-
-import org.junit.Test;
+package lvlp.hmwk2;
 
 import java.util.ArrayList;
 

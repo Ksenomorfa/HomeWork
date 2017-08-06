@@ -1,4 +1,4 @@
-package HomeWork1Lesson;
+package lvlp.hmwk1;
 
 import org.junit.Assert;
 import org.junit.Test;

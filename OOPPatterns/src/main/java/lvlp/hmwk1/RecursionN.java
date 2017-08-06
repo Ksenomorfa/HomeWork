@@ -1,4 +1,4 @@
-package HomeWork1Lesson;
+package lvlp.hmwk1;
 
 import java.util.Scanner;
 
